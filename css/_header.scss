@@ -1,54 +1,47 @@
 a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-  }
-  
-  a:hover {
-    color: white;
-  }
-  
-  .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  header {
-    background-color: #e8f0dd;
-  }
-  
-  .matelca {
-    color: black;
-    text-shadow: 1px 1px 2px #180db6;
-    text-align: center;
-    background-image: url(https://thumbs.dreamstime.com/z/logotipo-del-servicio-electricista-de-la-compa%C3%B1%C3%ADa-que-se-ocupa-poder-134292839.jpg);
-    background-size: cover;
-    background-position-y: center;
-  }
-  
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+}
+
+a:hover {
+  color: white;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  background-color: #e8f0dd;
+}
+
+.matelca {
+  color: black;
+  text-shadow: 1px 1px 2px #180db6;
+  text-align: center;
+  background-image: url(https://thumbs.dreamstime.com/z/logotipo-del-servicio-electricista-de-la-compa%C3%B1%C3%ADa-que-se-ocupa-poder-134292839.jpg);
+  background-size: cover;
+  background-position-y: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: black;
+  text-shadow: 1px 1px 2px #05078d;
+}
+
+ul {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 550px) {
+
   h1 {
-    font-size: 48px;
-    color: black;
-    text-shadow: 1px 1px 2px #05078d;
+    font-size: 30px;
   }
-  
-  ul {
-    text-decoration: none;
-  }
-  
-  .navbar {
-    height: 80px;
-    width: 100%;
-    padding-left: 50px;
-    
-  }
-  .contNav{
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-    
-       
-  }
-  
+}
